@@ -1,0 +1,21 @@
+INSERT INTO author (name, nationality) VALUES ('J.K. Rowling', 'British');
+INSERT INTO author (name, nationality) VALUES ('George R.R. Martin', 'American');
+INSERT INTO author (name, nationality) VALUES ('J.R.R. Tolkien', 'British');
+INSERT INTO author (name, nationality) VALUES ('Agatha Christie', 'British');
+INSERT INTO author (name, nationality) VALUES ('Stephen King', 'American');
+INSERT INTO author (name, nationality) VALUES ('Isaac Asimov', 'American');
+INSERT INTO author (name, nationality) VALUES ('Arthur C. Clarke', 'British');
+INSERT INTO author (name, nationality) VALUES ('Ray Bradbury', 'American');
+INSERT INTO author (name, nationality) VALUES ('Frank Herbert', 'American');
+INSERT INTO author (name, nationality) VALUES ('Haruki Murakami', 'Japanese');
+
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Harry Potter 1', 'Fantasy', '1001', 1);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Harry Potter 2', 'Fantasy', '1002', 1);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Game of Thrones', 'Fantasy', '2001', 2);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Clash of Kings', 'Fantasy', '2002', 2);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('The Hobbit', 'Fantasy', '3001', 3);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Murder on the Orient Express', 'Mystery', '4001', 4);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('The Shining', 'Horror', '5001', 5);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Foundation', 'Sci-Fi', '6001', 6);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('2001: A Space Odyssey', 'Sci-Fi', '7001', 7);
+INSERT INTO book (title, genre, isbn, author_id) VALUES ('Dune', 'Sci-Fi', '9001', 9);
